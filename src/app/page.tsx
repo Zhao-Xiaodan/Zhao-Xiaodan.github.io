@@ -10,27 +10,27 @@ const featuredProjects = [
     title: "SMMS Commercialization & US Patent",
     summary:
       "Developing a single-molecule mechanical sensing platform for rapid, point-of-care diagnostics. The technology converts molecular binding events into mechanical signals readable by compact instruments, enabling decentralized disease detection.",
-    image: "/images/Patent_SMMS_Platform.png",
+    image: "/images/Patent_SMMS_Platform.webp",
   },
   {
     title: "TRF2 Single-Molecule Study",
     summary:
       "Revealed how TRF2 induces DNA distortion at telomeric sequences using magnetic tweezers, providing mechanistic insights into telomere protection with implications for aging and cancer biology.",
     link: "https://doi.org/10.1038/s42003-024-05838-x",
-    image: "/images/HMGA2.png",
+    image: "/images/HMGA2.webp",
   },
   {
     title: "Mechanical Immunoassay",
     summary:
       "Developed a force-dependent rapid immunoassay achieving ELISA-comparable sensitivity within minutes, using magnetic bead displacement as readout — a new paradigm for low-cost point-of-care testing.",
-    image: "/images/Force-Dependent Rapid Immunoassay.png",
+    image: "/images/Force-Dependent Rapid Immunoassay.webp",
   },
   {
     title: "Magnetic Tweezers Engineering",
     summary:
       "Designed magnetic tweezers with wide-range temperature control for single-molecule experiments, extending force spectroscopy capabilities to study temperature-dependent biomolecular processes.",
     link: "https://doi.org/10.1016/j.bpj.2023.08.004",
-    image: "/images/QuantificationofAnti-RBDIgGLevels.png",
+    image: "/images/QuantificationofAnti-RBDIgGLevels.webp",
   },
 ];
 

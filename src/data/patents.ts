@@ -25,7 +25,7 @@ export const patents: Patent[] = [
     year: 2023,
     description:
       "A platform technology for single-molecule mechanical sensing that enables rapid, high-sensitivity detection of biomarkers using force-based readout from magnetic tweezers. The invention supports point-of-care diagnostic applications with minimal sample preparation.",
-    image: "/images/Patent_SMMS_Platform.png",
+    image: "/images/Patent_SMMS_Platform.webp",
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ export const patents: Patent[] = [
     year: 2023,
     description:
       "A multiplex diagnostic chip design that integrates mechanical immunoassay technology with microfluidic engineering, enabling simultaneous detection of multiple analytes from small sample volumes for clinical and field-deployable diagnostics.",
-    image: "/images/Patent_A METHOD FOR VIRUS AND BIOMARKER DETECTION .png",
+    image: "/images/Patent_A METHOD FOR VIRUS AND BIOMARKER DETECTION .webp",
   },
 ];
 
@@ -67,6 +67,6 @@ export const mediaItems: MediaItem[] = [
     description:
       "Feature on NUS Mechanobiology Institute receiving funding to develop biomedical innovations for age-related conditions.",
     link: "https://news.nus.edu.sg/nus-mechanobiology-institute-receives-s49m-boost-to-develop-biomedical-innovations-for-age-related-conditions/",
-    image: "/images/NUS_news.jpg",
+    image: "/images/NUS_news.webp",
   },
 ];

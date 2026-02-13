@@ -15,6 +15,9 @@ export const newsItems: NewsItem[] = [
     summary:
       "Co-authored study on the force-transducing mechanism of a motor\u2013stator complex published in the Journal of the American Chemical Society.",
     date: "2025",
+    link: "https://doi.org/10.1021/jacs.4c18050",
+    source: "JACS",
+    image: "/images/logos/jacs.webp",
   },
   {
     id: 2,
@@ -44,7 +47,7 @@ export const newsItems: NewsItem[] = [
     date: "2024",
     link: "https://news.nus.edu.sg/nus-mechanobiology-institute-receives-s49m-boost-to-develop-biomedical-innovations-for-age-related-conditions/",
     source: "NUS News",
-    image: "/images/NUS_news.jpg",
+    image: "/images/NUS_news.webp",
   },
   {
     id: 5,
@@ -54,6 +57,7 @@ export const newsItems: NewsItem[] = [
     date: "2024",
     link: "https://doi.org/10.1038/s42003-024-05838-x",
     source: "Communications Biology",
+    image: "/images/logos/comms-bio.webp",
   },
   {
     id: 6,
@@ -61,5 +65,8 @@ export const newsItems: NewsItem[] = [
     summary:
       "Ongoing development of deep-learning-based image analysis tools for automated bead detection in single-molecule mechanical sensing platforms.",
     date: "2024",
+    link: "https://huggingface.co/spaces/Dan2727",
+    source: "HuggingFace",
+    image: "/images/logos/huggingface.webp",
   },
 ];

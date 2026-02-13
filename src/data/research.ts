@@ -36,7 +36,7 @@ export const researchDomains: ResearchDomain[] = [
           "Electrical stimuli can dynamically switch the membrane between superhydrophobic low-adhesion and high-adhesion states, providing a tunable platform for surface engineering applications.",
         impact:
           "Established design principles for electrically responsive surfaces, with implications for smart coatings, microfluidics, and bio-inspired material systems. Published in Advanced Functional Materials.",
-        image: "/images/MnO2_Electric_adjustive_force.png",
+        image: "/images/MnO2_Electric_adjustive_force.webp",
         pubLink: "https://doi.org/10.1002/adfm.201000513",
       },
     ],
@@ -59,7 +59,7 @@ export const researchDomains: ResearchDomain[] = [
           "HMGA2 effectively curbs both (+) and (\u2212) unconstrained supercoiling, revealing a topological regulatory mechanism.",
         impact:
           "Links HMGA2\u2019s DNA topology modulation to its role in gene regulation and oncogenesis.",
-        image: "/images/HMGA2.png",
+        image: "/images/HMGA2.webp",
         pubLink: "https://doi.org/10.1038/s41598-017-09104-5",
       },
       {
@@ -88,7 +88,7 @@ export const researchDomains: ResearchDomain[] = [
           "Single-molecule methods uniquely resolve heterogeneous binding modes and rare events missed by ensemble averaging.",
         impact:
           "Established a methodological framework widely applicable to the study of transcription factors, histones, and architectural proteins.",
-        image: "/images/Label-Free DNA Binding Quantification.png",
+        image: "/images/Label-Free DNA Binding Quantification.webp",
         pubLink: "https://doi.org/10.1016/j.cbpa.2019.08.006",
       },
     ],
@@ -111,7 +111,7 @@ export const researchDomains: ResearchDomain[] = [
           "The mechanical immunoassay achieves high specificity and sensitivity comparable to ELISA within minutes.",
         impact:
           "Establishes a new paradigm for low-cost, rapid, point-of-care diagnostics with pandemic response applications.",
-        image: "/images/Force-Dependent Rapid Immunoassay.png",
+        image: "/images/Force-Dependent Rapid Immunoassay.webp",
       },
       {
         title: "Anti-RBD IgG Quantification from Whole Blood",
@@ -125,7 +125,7 @@ export const researchDomains: ResearchDomain[] = [
           "Successfully quantified anti-RBD IgG levels from finger-prick samples with results in under 30 minutes.",
         impact:
           "Demonstrates translational readiness for decentralized seroprevalence monitoring during pandemics.",
-        image: "/images/QuantificationofAnti-RBDIgGLevels.png",
+        image: "/images/QuantificationofAnti-RBDIgGLevels.webp",
         pubLink: "https://doi.org/10.1021/acssensors.3c00393",
       },
     ],

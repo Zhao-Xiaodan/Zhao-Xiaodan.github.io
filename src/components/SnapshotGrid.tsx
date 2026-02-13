@@ -1,7 +1,7 @@
 const items = [
   { label: "Ph.D.", detail: "National University of Singapore (2011)" },
   { label: "20+", detail: "Peer-reviewed publications" },
-  { label: "~400", detail: "Citations | h-index 11" },
+  { label: "500+", detail: "Citations | h-index 12" },
   { label: "2", detail: "US patent applications" },
   { label: "Media", detail: "Straits Times / \u8054\u5408\u65e9\u62a5 / NUS News" },
   { label: "Role", detail: "Senior Research Fellow (Translational)" },

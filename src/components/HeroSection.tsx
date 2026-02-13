@@ -5,7 +5,7 @@ export default function HeroSection() {
         <div className="flex flex-col md:flex-row items-center gap-10">
           {/* Portrait */}
           <img
-            src="/images/profile_photo.png"
+            src="/images/profile_photo.webp"
             alt="Xiaodan Zhao"
             className="w-48 h-48 sm:w-56 sm:h-56 rounded-full object-cover flex-shrink-0 border-4 border-white/20"
           />

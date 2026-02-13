@@ -136,9 +136,11 @@ export default function ResearchPage() {
                 >
                   <div className="md:flex">
                     {entry.image ? (
-                      <img src={entry.image} alt={entry.title} className="md:w-64 object-cover min-h-[180px]" />
+                      <div className="md:w-72 flex-shrink-0 bg-slate-50 flex items-center justify-center p-4">
+                        <img src={entry.image} alt={entry.title} className="max-w-full max-h-[240px] object-contain" />
+                      </div>
                     ) : (
-                      <div className="md:w-64 bg-slate-100 flex items-center justify-center text-slate-400 text-sm p-8 min-h-[180px]">
+                      <div className="md:w-72 flex-shrink-0 bg-slate-100 flex items-center justify-center text-slate-400 text-sm p-8 min-h-[180px]">
                         Research Figure
                       </div>
                     )}

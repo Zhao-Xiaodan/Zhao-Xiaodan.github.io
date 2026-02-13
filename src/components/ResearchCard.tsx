@@ -9,7 +9,7 @@ export default function ResearchCard({ title, summary, link, image }: ResearchCa
   return (
     <div className="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-md transition-shadow">
       {image ? (
-        <img src={image} alt={title} className="w-full h-40 object-cover rounded-lg mb-4" />
+        <img src={image} alt={title} className="w-full h-48 object-contain rounded-lg mb-4 bg-slate-50" />
       ) : (
         <div className="w-full h-40 bg-slate-100 rounded-lg mb-4 flex items-center justify-center text-slate-400 text-sm">
           Research Figure

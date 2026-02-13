@@ -29,6 +29,7 @@ export const publications: Publication[] = [
     category: "DNA Mechanics & Supercoiling",
     summary:
       "This study reveals the force-transducing mechanism of a motor\u2013stator complex critical for bacterial outer membrane lipid homeostasis, using single-molecule force spectroscopy combined with structural analysis to uncover how mechanical force is transmitted at the molecular level.",
+    doi: "https://doi.org/10.1021/jacs.4c18050",
   },
   {
     id: 2,

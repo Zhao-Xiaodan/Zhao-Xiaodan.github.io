@@ -3,10 +3,12 @@ export default function HeroSection() {
     <section className="bg-gradient-to-br from-navy-dark to-navy text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
         <div className="flex flex-col md:flex-row items-center gap-10">
-          {/* Portrait placeholder */}
-          <div className="w-48 h-48 sm:w-56 sm:h-56 rounded-full bg-slate-300 flex-shrink-0 flex items-center justify-center text-slate-500 text-sm border-4 border-white/20 overflow-hidden">
-            <span className="text-center px-4">Portrait Photo</span>
-          </div>
+          {/* Portrait */}
+          <img
+            src="/images/profile_photo.png"
+            alt="Xiaodan Zhao"
+            className="w-48 h-48 sm:w-56 sm:h-56 rounded-full object-cover flex-shrink-0 border-4 border-white/20"
+          />
 
           <div className="text-center md:text-left">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">

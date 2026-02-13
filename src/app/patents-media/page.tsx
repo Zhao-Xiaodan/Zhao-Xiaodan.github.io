@@ -15,9 +15,13 @@ export default function PatentsMediaPage() {
             key={patent.id}
             className="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-md transition-shadow"
           >
-            <div className="w-full h-32 bg-slate-100 rounded-lg mb-4 flex items-center justify-center text-slate-400 text-sm">
-              Patent Diagram
-            </div>
+            {patent.image ? (
+              <img src={patent.image} alt={patent.title} className="w-full h-48 object-cover rounded-lg mb-4" />
+            ) : (
+              <div className="w-full h-32 bg-slate-100 rounded-lg mb-4 flex items-center justify-center text-slate-400 text-sm">
+                Patent Diagram
+              </div>
+            )}
             <span className="inline-block px-2.5 py-0.5 text-xs font-medium rounded-full bg-blue-50 text-blue-700 mb-2">
               {patent.number}
             </span>
@@ -42,9 +46,13 @@ export default function PatentsMediaPage() {
             className="bg-white border border-slate-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow"
           >
             <div className="md:flex">
-              <div className="md:w-48 bg-slate-100 flex items-center justify-center text-slate-400 text-sm p-6 min-h-[120px]">
-                Screenshot
-              </div>
+              {item.image ? (
+                <img src={item.image} alt={item.title} className="md:w-48 object-cover min-h-[120px]" />
+              ) : (
+                <div className="md:w-48 bg-slate-100 flex items-center justify-center text-slate-400 text-sm p-6 min-h-[120px]">
+                  Screenshot
+                </div>
+              )}
               <div className="p-6 flex-1">
                 <div className="flex items-center gap-2 mb-1">
                   <span className="text-xs font-medium text-accent">{item.source}</span>

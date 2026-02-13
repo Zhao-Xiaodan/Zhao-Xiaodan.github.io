@@ -3,9 +3,13 @@ import type { NewsItem } from "@/data/news";
 export default function NewsCard({ item }: { item: NewsItem }) {
   return (
     <div className="flex gap-4 bg-white border border-slate-200 rounded-xl p-5 hover:shadow-md transition-shadow">
-      <div className="w-20 h-20 bg-slate-100 rounded-lg flex-shrink-0 flex items-center justify-center text-slate-400 text-xs">
-        Thumbnail
-      </div>
+      {item.image ? (
+        <img src={item.image} alt={item.title} className="w-20 h-20 object-cover rounded-lg flex-shrink-0" />
+      ) : (
+        <div className="w-20 h-20 bg-slate-100 rounded-lg flex-shrink-0 flex items-center justify-center text-slate-400 text-xs">
+          Thumbnail
+        </div>
+      )}
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2 mb-1">
           <span className="text-xs text-slate-400">{item.date}</span>

@@ -5,6 +5,7 @@ export interface NewsItem {
   date: string;
   link?: string;
   source?: string;
+  image?: string;
 }
 
 export const newsItems: NewsItem[] = [
@@ -23,6 +24,7 @@ export const newsItems: NewsItem[] = [
     date: "2024",
     link: "https://www.straitstimes.com/singapore/49m-for-nus-researchers-to-develop-biomedical-innovations-for-age-related-conditions",
     source: "The Straits Times",
+    image: "/images/THESTRAITS TIMES.webp",
   },
   {
     id: 3,
@@ -32,9 +34,20 @@ export const newsItems: NewsItem[] = [
     date: "2024",
     link: "https://www.zaobao.com.sg/news/singapore/story20240125-1464185",
     source: "\u8054\u5408\u65e9\u62a5",
+    image: "/images/\u8054\u5408\u65e9\u62a5.webp",
   },
   {
     id: 4,
+    title: "NUS Mechanobiology Institute Receives S$49M Boost",
+    summary:
+      "NUS MBI receives funding to develop biomedical innovations for age-related conditions, featuring translational diagnostic research.",
+    date: "2024",
+    link: "https://news.nus.edu.sg/nus-mechanobiology-institute-receives-s49m-boost-to-develop-biomedical-innovations-for-age-related-conditions/",
+    source: "NUS News",
+    image: "/images/NUS_news.jpg",
+  },
+  {
+    id: 5,
     title: "TRF2 Study Published in Communications Biology",
     summary:
       "Single-DNA manipulation study exploring TRF2-dependent DNA distortion accepted in Nature Communications Biology.",
@@ -43,7 +56,7 @@ export const newsItems: NewsItem[] = [
     source: "Communications Biology",
   },
   {
-    id: 5,
+    id: 6,
     title: "AI Tool Development for Diagnostics",
     summary:
       "Ongoing development of deep-learning-based image analysis tools for automated bead detection in single-molecule mechanical sensing platforms.",

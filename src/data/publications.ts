@@ -58,6 +58,7 @@ export const publications: Publication[] = [
     category: "Diagnostics & Translational Research",
     summary:
       "This paper introduces a force-dependent rapid immunoassay that leverages mechanical signals for high-specificity and high-sensitivity antigen detection, representing a new paradigm in point-of-care testing that bypasses traditional optical readout limitations.",
+    doi: "https://doi.org/10.1016/j.mbm.2024.100061",
   },
   {
     id: 5,
@@ -87,6 +88,7 @@ export const publications: Publication[] = [
     category: "DNA Mechanics & Supercoiling",
     summary:
       "This study uncovers a secondary DNA binding surface of topoisomerase I that acts as a safeguard against hypertranscription, revealing a dual-function mechanism in gene regulation through combined biochemical and single-molecule approaches.",
+    doi: "https://doi.org/10.1038/s41467-023-42078-9",
   },
   {
     id: 8,
@@ -126,6 +128,7 @@ export const publications: Publication[] = [
     category: "DNA Mechanics & Supercoiling",
     summary:
       "This study shows that HMGA2 influences subtelomere stability and cancer chemosensitivity, linking chromatin architecture to therapeutic response and providing insights into HMGA2 as a potential biomarker or therapeutic target in cancer treatment.",
+    doi: "https://doi.org/10.1371/journal.pone.0215696",
   },
   {
     id: 12,
@@ -135,6 +138,7 @@ export const publications: Publication[] = [
     category: "DNA Mechanics & Supercoiling",
     summary:
       "A novel approach to determine two-state folding energies from transition points in nonequilibrium single-molecule pulling experiments, providing a practical method to extract thermodynamic parameters from dynamic force spectroscopy data.",
+    doi: "https://doi.org/10.1021/acs.jpclett.7b03251",
   },
   {
     id: 13,
@@ -144,6 +148,7 @@ export const publications: Publication[] = [
     category: "DNA Mechanics & Supercoiling",
     summary:
       "This study identifies ZYH005 as a novel DNA intercalator capable of overcoming all-trans retinoic acid resistance in acute promyelocytic leukemia, demonstrating its mechanism of action through single-molecule DNA mechanics and cell biology approaches.",
+    doi: "https://doi.org/10.1093/nar/gky108",
   },
   {
     id: 14,
@@ -173,6 +178,7 @@ export const publications: Publication[] = [
     category: "Magnetic Tweezers Engineering",
     summary:
       "This work compares theoretical predictions of drag coefficients for bead-chains in Stokes flow with experimental measurements, providing practical calibration guidance for magnetic tweezers and other micromanipulation techniques.",
+    doi: "https://doi.org/10.1371/journal.pone.0188015",
   },
   {
     id: 17,
@@ -192,6 +198,7 @@ export const publications: Publication[] = [
     category: "Materials Physics (Early Career)",
     summary:
       "Hierarchical MnO\u2082 tube-on-tube nanostructure arrays are synthesized via a selective dissolution mechanism, demonstrating superior pseudocapacitor performance dependent on their unique hierarchical architecture.",
+    doi: "https://doi.org/10.1002/admi.201500761",
   },
   {
     id: 19,
@@ -201,6 +208,7 @@ export const publications: Publication[] = [
     category: "Materials Physics (Early Career)",
     summary:
       "This study demonstrates electrically adjustable super-adhesive forces on a superhydrophobic aligned MnO\u2082 nanotube membrane, showing how electrical stimuli can dynamically control wetting and adhesion properties at the nanoscale.",
+    doi: "https://doi.org/10.1002/adfm.201000513",
   },
   {
     id: 20,
@@ -210,6 +218,7 @@ export const publications: Publication[] = [
     category: "Materials Physics (Early Career)",
     summary:
       "Pattern-dependent tunable adhesion is achieved on superhydrophobic MnO\u2082 nanostructured films, revealing how surface patterning controls the transition between lotus-like and rose-petal-like wetting states.",
+    doi: "https://doi.org/10.1021/la104981p",
   },
   {
     id: 21,

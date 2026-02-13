@@ -2,6 +2,7 @@ export interface ResearchDomain {
   id: string;
   title: string;
   description: string;
+  image?: string;
   entries: ResearchEntry[];
 }
 
@@ -12,16 +13,55 @@ export interface ResearchEntry {
   strategy: string;
   finding: string;
   impact: string;
+  image?: string;
   pubLink?: string;
 }
 
 export const researchDomains: ResearchDomain[] = [
   {
     id: "A",
-    title: "Single-Molecule Biophysics",
+    title: "Materials Physics & Functional Surfaces",
     description:
-      "Developing and applying magnetic tweezers and AFM imaging to study DNA topology, protein\u2013DNA interactions, and biomolecular mechanics at the single-molecule level.",
+      "Early research centered on nanostructured MnO\u2082 materials and tunable adhesion systems, establishing a strong foundation in surface engineering, materials characterization, and experimental design.",
     entries: [
+      {
+        title: "Electrically Adjustable Superhydrophobic MnO\u2082 Nanotube Membrane",
+        background:
+          "Controlling surface wetting and adhesion at the nanoscale is critical for applications ranging from self-cleaning coatings to microfluidic devices, yet dynamically switchable adhesion remained a challenge.",
+        innovation:
+          "Demonstrated electrically adjustable super-adhesive forces on a superhydrophobic aligned MnO\u2082 nanotube membrane, enabling dynamic control of wetting and adhesion through electrical stimuli.",
+        strategy:
+          "Fabricated aligned MnO\u2082 nanotube arrays and characterized their wetting behavior under varying electrical potentials using contact angle measurements and adhesion force spectroscopy.",
+        finding:
+          "Electrical stimuli can dynamically switch the membrane between superhydrophobic low-adhesion and high-adhesion states, providing a tunable platform for surface engineering applications.",
+        impact:
+          "Established design principles for electrically responsive surfaces, with implications for smart coatings, microfluidics, and bio-inspired material systems. Published in Advanced Functional Materials.",
+        image: "/images/MnO2_Electric_adjustive_force.png",
+        pubLink: "https://doi.org/10.1002/adfm.201000513",
+      },
+    ],
+  },
+  {
+    id: "B",
+    title: "Single-Molecule DNA Mechanics & Topology",
+    description:
+      "Investigating how proteins such as HMGA2, TRF2, and other DNA-binding factors regulate DNA supercoiling, telomere structure, and chromosome stability using magnetic tweezers and AFM-based single-molecule approaches.",
+    entries: [
+      {
+        title: "HMGA2 Regulation of DNA Supercoiling",
+        background:
+          "HMGA2, an oncofetal protein overexpressed in many cancers, binds to the minor groove of AT-rich DNA, but its effect on DNA topology was unclear.",
+        innovation:
+          "Used single-molecule magnetic tweezers to quantify how HMGA2 constrains both positive and negative DNA supercoiling.",
+        strategy:
+          "Performed systematic supercoiling measurements on individual DNA molecules in the presence of varying HMGA2 concentrations.",
+        finding:
+          "HMGA2 effectively curbs both (+) and (\u2212) unconstrained supercoiling, revealing a topological regulatory mechanism.",
+        impact:
+          "Links HMGA2\u2019s DNA topology modulation to its role in gene regulation and oncogenesis.",
+        image: "/images/HMGA2.png",
+        pubLink: "https://doi.org/10.1038/s41598-017-09104-5",
+      },
       {
         title: "TRF2-Dependent DNA Distortion",
         background:
@@ -37,28 +77,6 @@ export const researchDomains: ResearchDomain[] = [
         pubLink: "https://doi.org/10.1038/s42003-024-05838-x",
       },
       {
-        title: "HMGA2 Regulation of DNA Supercoiling",
-        background:
-          "HMGA2, an oncofetal protein overexpressed in many cancers, binds to the minor groove of AT-rich DNA, but its effect on DNA topology was unclear.",
-        innovation:
-          "Used single-molecule magnetic tweezers to quantify how HMGA2 constrains both positive and negative DNA supercoiling.",
-        strategy:
-          "Performed systematic supercoiling measurements on individual DNA molecules in the presence of varying HMGA2 concentrations.",
-        finding:
-          "HMGA2 effectively curbs both (+) and (\u2212) unconstrained supercoiling, revealing a topological regulatory mechanism.",
-        impact:
-          "Links HMGA2\u2019s DNA topology modulation to its role in gene regulation and oncogenesis.",
-        pubLink: "https://doi.org/10.1038/s41598-017-09104-5",
-      },
-    ],
-  },
-  {
-    id: "B",
-    title: "Telomere & DNA Topology Research",
-    description:
-      "Investigating how proteins such as HMGA2, TRF2, hRap1, and topoisomerases regulate DNA supercoiling, telomere structure, and chromosome stability.",
-    entries: [
-      {
         title: "Site-Specific DNA Binding Quantification",
         background:
           "Quantifying site-specific protein\u2013DNA binding with high precision remains challenging using ensemble methods.",
@@ -70,20 +88,8 @@ export const researchDomains: ResearchDomain[] = [
           "Single-molecule methods uniquely resolve heterogeneous binding modes and rare events missed by ensemble averaging.",
         impact:
           "Established a methodological framework widely applicable to the study of transcription factors, histones, and architectural proteins.",
+        image: "/images/Label-Free DNA Binding Quantification.png",
         pubLink: "https://doi.org/10.1016/j.cbpa.2019.08.006",
-      },
-      {
-        title: "HMGA2 Influence on Subtelomere Stability",
-        background:
-          "The relationship between chromatin structural proteins and subtelomere stability in cancer remained unexplored.",
-        innovation:
-          "Combined cell biology with single-molecule approaches to study HMGA2\u2019s effect on subtelomeric regions.",
-        strategy:
-          "Analyzed subtelomere integrity and chemosensitivity in HMGA2-expressing cancer cell lines.",
-        finding:
-          "HMGA2 influences subtelomere stability and modulates cancer cell sensitivity to chemotherapy.",
-        impact:
-          "Identifies HMGA2 as a potential biomarker and therapeutic target in cancer treatment.",
       },
     ],
   },
@@ -105,6 +111,7 @@ export const researchDomains: ResearchDomain[] = [
           "The mechanical immunoassay achieves high specificity and sensitivity comparable to ELISA within minutes.",
         impact:
           "Establishes a new paradigm for low-cost, rapid, point-of-care diagnostics with pandemic response applications.",
+        image: "/images/Force-Dependent Rapid Immunoassay.png",
       },
       {
         title: "Anti-RBD IgG Quantification from Whole Blood",
@@ -118,6 +125,7 @@ export const researchDomains: ResearchDomain[] = [
           "Successfully quantified anti-RBD IgG levels from finger-prick samples with results in under 30 minutes.",
         impact:
           "Demonstrates translational readiness for decentralized seroprevalence monitoring during pandemics.",
+        image: "/images/QuantificationofAnti-RBDIgGLevels.png",
         pubLink: "https://doi.org/10.1021/acssensors.3c00393",
       },
     ],
